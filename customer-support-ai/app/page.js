@@ -10,7 +10,7 @@ export default function Home() {
 		{
 			role: "assistant",
 			content:
-				"Hi! I'm the Pantry Tracker support assistant. How can I help you today?",
+				"Hi! I'm Muftis Assistant. How can I help you today?",
 		},
 	]);
 	const [message, setMessage] = useState("");
@@ -116,14 +116,14 @@ export default function Home() {
           paddingLeft: '100px'
 				}}
 			>
-				<img
+				{/* <img
 					src='https://www.radware.com/RadwareSite/MediaLibraries/Images/Cyberpedia/Bot%20Manager/types-of-bots.jpg'
 					alt='image'
 					height={"100px"}
 					width='100px'
-				/>
-				<p style={{ color: "white", backgroundColor: 'gray' }}>Name: Pebbles</p>
-				<p style={{ color: "white", backgroundColor: 'gray' }}>Status: Online</p>
+				/> */}
+				<p style={{ color: "white", backgroundColor: 'gray' }}>Name: Muftis Assistant</p>
+				{/* <p style={{ color: "white", backgroundColor: 'gray' }}>Status: Online</p> */}
 			</div>
 			{/* <image src={pgbkgrnd } alt='image' /> */}
 			<div

@@ -12,14 +12,18 @@
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^5.16.6",
+    "@pinecone-database/pinecone": "^3.0.0",
     "babel": "^6.23.0",
+    "langchain": "^0.2.16",
     "next": "14.2.5",
     "nextjs": "^0.0.3",
-    "openai": "^4.55.2",
+    "openai": "^4.56.0",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-react": "^7.24.7",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "next": "14.2.5"
